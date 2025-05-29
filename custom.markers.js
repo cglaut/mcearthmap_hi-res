@@ -38,50 +38,42 @@ Use the imageScale property if the pin image is too large.
 
 UnminedCustomMarkers = {
 
-    isEnabled: true,
+    isEnabled: false,
 
     markers: [
 
-        // Custom Marker 1: Player Base
+        // Example 1: Simple marker
         {
-            x: 10732,
-            z: -3147,
+            x: -200,
+            z: -200,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.5,
-            text: "China House",
-            textColor: "white",
-            offsetX: 0,
-            offsetY: 20,
-            font: "bold 20px Calibri,sans-serif",
         },
 
-        // Custom Marker 2: Player Base
+        // Example 2: Marker with text
         {
-            x: 8293,
-            z: -4289,
+            x: 0,
+            z: 0,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.5,
-            text: "Himmalaya House",
-            textColor: "white", 
+            text: "Marker with text",
+            textColor: "red", 
             offsetX: 0,
             offsetY: 20,
             font: "bold 20px Calibri,sans serif",
         },
 
-        // 
-        {	Custom Marker 3: Country Base
-            x: 11615,
-            z: 2487,
-            image: "custom.pin.png",
-            imageAnchor: [0.5, 1],
-            imageScale: 0.5,
-            text: "West Australia",
-            textColor: "white", 
+        // Example 3: Text only
+        {
+            x: 200,
+            z: 200,
+            text: "Text only", 
+            textColor: "yellow", 
             offsetX: 0,
-            offsetY: 20,
-            font: "bold 20px Calibri,sans serif",
+            offsetY: 0, 
+            font: "bold 50px Calibri,sans serif",
         },
 
         // add your markers here
@@ -92,3 +84,4 @@ UnminedCustomMarkers = {
         // do not delete the following two closing brackets
     ]
 }
+
